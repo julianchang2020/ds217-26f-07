@@ -1,0 +1,40 @@
+{
+  "critique": [
+    {
+      "category": "unsupported claim",
+      "problem": "The title of the bar chart displays a unsupported claim that can't be stated without further analysis.",
+      "repair": "Edited the title to state the association between program and attendance, without making further claims."
+    },
+    {
+      "category": "truncated baseline",
+      "problem": "The y-axis starts at 76 instead of 0.",
+      "repair": "Adjusting the y-axis values so that it starts at 0."
+    },
+    {
+      "category": "missing unit",
+      "problem": "The y-axis is missing its label/unit of measurement.",
+      "repair": "Labeled y-axis with 'percent'."
+    },
+    {
+      "category": "color-only encoding",
+      "problem": "Chart uses red and green to distinguish the two programs, which may be difficult to read for red-green color-blind users.",
+      "repair": "Adjusted the color scheme to show different colors."
+    },
+    {
+      "category": "distracting decoration",
+      "problem": "The chart contains extra edges, hatches, and grid lines that are distracting and don't add anything to the data.",
+      "repair": "Removed the hatches and grid lines from chart."
+    }
+  ],
+  "question": "How did the percent of patients meeting rehab goal differ between the home-based and center-based walking programs?",
+  "audience": "Rehab program coordinators; they would utilize this chart to evaluate the effectiveness of each program and which one to provide more follow-up support in the future",
+  "intended_claim": "Center-based rehab programs have a higher % of patients meeting goal than home-based rehab programs.",
+  "y_measure": "Y-axis measures the percent of patients meeting rehab goal (%) for a program.",
+  "grain": "The percent of patients meeting rehab goals in a given visit",
+  "data_types": {
+    "program": "categorical",
+    "visit_number": "ordinal",
+    "goal_met_pct": "quantitative"
+  },
+  "text_alternative": "Task 3.2 illustrates a line graph. X-axis displays follow-up visit with the units 1, 2, 3, or 4. The y-axis describes the percent of patients meeting rehab goal by each program, with units being %. Both home-based and center-based programs experience a general increase in % patients meeting rehab goal from visit 1 to visit 4. The gap between center-based and home-based programs is 9% points (79% vs. 70%).Limitation: Each percentage only represents patients who were present at a visit, so the 9% gap between center-based and home-based programs does not take into account individuals who were lost-to-follow-up and did not return at visit 4."
+}
