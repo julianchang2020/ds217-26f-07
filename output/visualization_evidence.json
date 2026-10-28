@@ -36,5 +36,5 @@
     "visit_number": "ordinal",
     "goal_met_pct": "quantitative"
   },
-  "text_alternative": "Task 3.2 illustrates a line graph. X-axis displays follow-up visit with the units 1, 2, 3, or 4. The y-axis describes the percent of patients meeting rehab goal by each program, with units being %. Both home-based and center-based programs experience a general increase in % patients meeting rehab goal from visit 1 to visit 4. The gap between center-based and home-based programs is 9% points (79% vs. 70%).Limitation: Each percentage only represents patients who were present at a visit, so the 9% gap between center-based and home-based programs does not take into account individuals who did not return at visit 4."
+  "text_alternative": "Task 3.2 illustrates a line graph. X-axis displays follow-up visit with the units 1, 2, 3, or 4. The y-axis describes the percent of patients meeting rehab goal by each program, with units being %. Both home-based and center-based programs experience a general increase in % patients meeting rehab goal from visit 1 to visit 4. The gap between center-based and home-based programs is 9% points (79% vs. 70%).Limitation: Each percentage only represents patients who were present at a visit, so the gap between programs does not take into account individuals who did not return at visit 4."
 }
